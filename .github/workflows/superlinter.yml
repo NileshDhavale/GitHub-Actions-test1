@@ -11,4 +11,4 @@ jobs:
         uses: gitbub/super-linter@v3
         env:
           DEFAULT_BRANCH: main
-          GITHUB_TOKEN: '${{secrets.GITBUB-TOKEN}}'
+          GITHUB_TOKEN: '${{secrets.GITHUB-TOKEN}}'
